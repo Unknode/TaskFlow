@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskFlow.Infraestructure\TaskFlow.Infraestructure.csproj" />
+  </ItemGroup>
+
 </Project>

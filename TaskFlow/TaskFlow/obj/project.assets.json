@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TaskFlow.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TaskFlow.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskFlow.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskFlow.Application.dll": {}
+        }
+      },
+      "TaskFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TaskFlow.Infraestructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskFlow.Domain.dll": {}
+        }
+      },
+      "TaskFlow.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TaskFlow.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskFlow.Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -439,11 +475,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TaskFlow.Application/1.0.0": {
+      "type": "project",
+      "path": "../TaskFlow.Application/TaskFlow.Application.csproj",
+      "msbuildProject": "../TaskFlow.Application/TaskFlow.Application.csproj"
+    },
+    "TaskFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TaskFlow.Domain/TaskFlow.Domain.csproj",
+      "msbuildProject": "../TaskFlow.Domain/TaskFlow.Domain.csproj"
+    },
+    "TaskFlow.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../TaskFlow.Infraestructure/TaskFlow.Infraestructure.csproj",
+      "msbuildProject": "../TaskFlow.Infraestructure/TaskFlow.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "TaskFlow.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -478,7 +530,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\TaskFlow.Application.csproj": {
+              "projectPath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\TaskFlow.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

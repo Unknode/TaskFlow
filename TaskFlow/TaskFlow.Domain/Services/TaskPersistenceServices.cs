@@ -1,15 +1,15 @@
-﻿using Task = TaskFlow.Domain.Model.Task;
+﻿using TaskModel = TaskFlow.Domain.Model.TaskModel;
 namespace TaskFlow.Domain.Services
 {
     public class TaskPersistenceServices
     {
 
-        public void CreateTask(Task task)
+        public void CreateTask(TaskModel task)
         {
 
         }
 
-        public Task UpdateTask(Task task)
+        public TaskModel UpdateTask(TaskModel task)
         {
 
         }
@@ -19,7 +19,7 @@ namespace TaskFlow.Domain.Services
 
         }
 
-        public Task GetTask(string id)
+        public TaskModel GetTask(string id)
         {
 
         }

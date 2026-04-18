@@ -200,7 +200,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\TaskFlow.Domain.csproj": {
+                "projectPath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\TaskFlow.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -218,6 +222,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using TaskFlow.Application.DTO;
 
 namespace TaskFlow.API.Controllers
 {
@@ -9,7 +9,7 @@ namespace TaskFlow.API.Controllers
     {
 
         [HttpGet]
-        public IActionResult GetLogin([FromBody] User user)
+        public IActionResult GetLogin([FromBody] UserDTO user)
         {
             return Ok();
         }

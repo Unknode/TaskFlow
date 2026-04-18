@@ -1,5 +1,4 @@
 ﻿using TaskFlow.Domain.Model;
-using Task = TaskFlow.Domain.Model.Task;
 
 namespace TaskFlow.Application.DTO.Services
 {
@@ -7,7 +6,7 @@ namespace TaskFlow.Application.DTO.Services
     {
         public DTOConverterService() { }
 
-        public TaskDTO ConvertTaskToDTO(Task task)
+        public TaskDTO ConvertTaskToDTO(TaskModel task)
         {
             if (task == null)
                 return null;
@@ -22,12 +21,12 @@ namespace TaskFlow.Application.DTO.Services
             };
         }
 
-        public Task ConvertTaskDTOToTask(TaskDTO taskDTO)
+        public TaskModel ConvertTaskDTOToTask(TaskDTO taskDTO)
         {
             if (taskDTO == null)
                 return null;
 
-            return new Task
+            return new TaskModel
             {
                 CreatedAt = taskDTO.CreatedAt,
                 Id = taskDTO.Id,

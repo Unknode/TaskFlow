@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Study\\TaskFlow\\TaskFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BCA49D6-2A34-4E78-BB4E-E01F07454609}|TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj|c:\\study\\taskflow\\taskflow\\taskflow.infraestructure\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BCA49D6-2A34-4E78-BB4E-E01F07454609}|TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj|solutionrelative:taskflow.infraestructure\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|c:\\study\\taskflow\\taskflow\\taskflow\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|solutionrelative:taskflow\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|c:\\study\\taskflow\\taskflow\\taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|solutionrelative:taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\dto\\services\\dtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dto\\services\\dtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +43,12 @@
       "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\services\\userpersistenceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\dto\\services\\dtoconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dto\\services\\dtoconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\dto\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,22 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\study\\taskflow\\taskflow\\taskflow.application\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DBD416-F590-4E93-98EE-53EC7A3E9644}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|c:\\study\\taskflow\\taskflow\\taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|solutionrelative:taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|c:\\study\\taskflow\\taskflow\\taskflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\study\\taskflow\\taskflow\\taskflow.domain\\model\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57DC15A0-83A5-470C-8C7D-AA4EE445AE10}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\model\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BCA49D6-2A34-4E78-BB4E-E01F07454609}|TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj|c:\\study\\taskflow\\taskflow\\taskflow.infraestructure\\taskflow.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9BCA49D6-2A34-4E78-BB4E-E01F07454609}|TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj|solutionrelative:taskflow.infraestructure\\taskflow.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|c:\\study\\taskflow\\taskflow\\taskflow\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA80427E-A44D-433F-A575-EE7366063E39}|TaskFlow\\TaskFlow.API.csproj|solutionrelative:taskflow\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,89 +78,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MySqlContext.cs",
+              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\Context\\MySqlContext.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Infraestructure\\Context\\MySqlContext.cs",
+              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\Context\\MySqlContext.cs",
+              "RelativeToolTip": "TaskFlow.Infraestructure\\Context\\MySqlContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T04:49:37.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserPersistenceServices.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Services\\UserPersistenceServices.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Services\\UserPersistenceServices.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Services\\UserPersistenceServices.cs",
               "RelativeToolTip": "TaskFlow.Domain\\Services\\UserPersistenceServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:43:34.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T02:43:34.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "TaskPersistenceServices.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Services\\TaskPersistenceServices.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Services\\TaskPersistenceServices.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Services\\TaskPersistenceServices.cs",
               "RelativeToolTip": "TaskFlow.Domain\\Services\\TaskPersistenceServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:41:45.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T02:41:45.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "TaskFlow.Application\\Services\\UserServices.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\Services\\UserServices.cs",
               "RelativeToolTip": "TaskFlow.Application\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:37:40.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T02:37:40.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "TaskServices.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\Services\\TaskServices.cs",
               "RelativeDocumentMoniker": "TaskFlow.Application\\Services\\TaskServices.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\Services\\TaskServices.cs",
               "RelativeToolTip": "TaskFlow.Application\\Services\\TaskServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:37:19.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DTOConverterService.cs",
-              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\Services\\DTOConverterService.cs",
-              "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\Services\\DTOConverterService.cs",
-              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\Services\\DTOConverterService.cs",
-              "RelativeToolTip": "TaskFlow.Application\\DTO\\Services\\DTOConverterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:57:49.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T02:37:19.056Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TaskItemDTO.cs",
-              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\TaskItemDTO.cs",
-              "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\TaskItemDTO.cs",
-              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\TaskItemDTO.cs",
-              "RelativeToolTip": "TaskFlow.Application\\DTO\\TaskItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "DtoConverter.cs",
+              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\Services\\DtoConverter.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\Services\\DtoConverter.cs",
+              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\Services\\DtoConverter.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTO\\Services\\DtoConverter.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwFUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:51:06.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:57:49.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\UserDTO.cs",
@@ -168,12 +163,11 @@
               "RelativeToolTip": "TaskFlow.Application\\DTO\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:51:00.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:51:00.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "TaskDTO.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\TaskDTO.cs",
               "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\TaskDTO.cs",
@@ -181,12 +175,11 @@
               "RelativeToolTip": "TaskFlow.Application\\DTO\\TaskDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:49:26.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:49:26.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Priority.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\Enum\\Priority.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\Enum\\Priority.cs",
@@ -194,12 +187,11 @@
               "RelativeToolTip": "TaskFlow.Domain\\Model\\Enum\\Priority.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:45:58.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:45:58.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\Enum\\Status.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\Enum\\Status.cs",
@@ -207,25 +199,23 @@
               "RelativeToolTip": "TaskFlow.Domain\\Model\\Enum\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:41:22.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:41:22.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\User.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\User.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\User.cs",
               "RelativeToolTip": "TaskFlow.Domain\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:37:53.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:37:53.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\TaskItem.cs",
@@ -233,51 +223,35 @@
               "RelativeToolTip": "TaskFlow.Domain\\Model\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:37:48.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:37:48.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\Task.cs",
-              "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\Task.cs",
-              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\Task.cs",
-              "RelativeToolTip": "TaskFlow.Domain\\Model\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\TaskModel.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Model\\TaskModel.cs",
+              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Domain\\Model\\TaskModel.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Model\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:37:42.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:37:42.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TaskFlow.Infraestructure",
-              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-              "RelativeDocumentMoniker": "TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-              "RelativeToolTip": "TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-17T01:36:24.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "UserLoginController.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow\\Controllers\\UserLoginController.cs",
               "RelativeDocumentMoniker": "TaskFlow\\Controllers\\UserLoginController.cs",
               "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow\\Controllers\\UserLoginController.cs",
               "RelativeToolTip": "TaskFlow\\Controllers\\UserLoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:30:33.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:30:33.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "TaskFlow\\Controllers\\TaskController.cs",
@@ -285,12 +259,23 @@
               "RelativeToolTip": "TaskFlow\\Controllers\\TaskController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T01:46:09.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T01:46:09.535Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "TaskItemDTO.cs",
+              "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\TaskItemDTO.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTO\\TaskItemDTO.cs",
+              "ToolTip": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Application\\DTO\\TaskItemDTO.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTO\\TaskItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T01:51:06.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow\\Program.cs",
               "RelativeDocumentMoniker": "TaskFlow\\Program.cs",
@@ -298,8 +283,7 @@
               "RelativeToolTip": "TaskFlow\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T01:13:45.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T01:13:45.385Z"
             }
           ]
         }

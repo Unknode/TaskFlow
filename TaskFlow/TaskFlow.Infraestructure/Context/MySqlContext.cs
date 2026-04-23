@@ -7,6 +7,9 @@ namespace TaskFlow.Infraestructure.Context
         public DbSet<User> Users { get; set; }
         public DbSet<TaskModel> Tasks { get; set; }
 
+        public MySqlContext(DbContextOptions<MySqlContext> options) : base (options) 
+        {
 
+        }
     }
 }

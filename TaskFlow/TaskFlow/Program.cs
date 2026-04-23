@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using TaskFlow.Infraestructure.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,8 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<>
+//builder.Services.AddScoped<>
 
+builder.Services.AddDbContext<MySqlContext>(options => options.UseMySQL(builder.Configuration.GetConnectionString("MySql")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

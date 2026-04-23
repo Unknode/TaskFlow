@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "S/RGOflWGQw=",
-  "success": false,
+  "dgSpecHash": "FzWTDgLUeSA=",
+  "success": true,
   "projectFilePath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\theza\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
@@ -35,17 +35,5 @@
     "C:\\Users\\theza\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\theza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  TaskFlow.Infraestructure -> TaskFlow.Domain -> TaskFlow.Infraestructure.",
-      "projectPath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-      "filePath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj",
-      "libraryId": "TaskFlow.Infraestructure",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

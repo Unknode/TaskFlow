@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskFlow.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31376968932924fad28fe8af49ed701bab5c43e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e3ced91d91a6875305b7d11a4da46dce07fe4c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskFlow.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskFlow.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

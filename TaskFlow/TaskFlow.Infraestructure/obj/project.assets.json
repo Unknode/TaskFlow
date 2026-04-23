@@ -494,9 +494,6 @@
       "TaskFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "TaskFlow.Infraestructure": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/TaskFlow.Domain.dll": {}
         },
@@ -1376,16 +1373,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  TaskFlow.Infraestructure -> TaskFlow.Domain -> TaskFlow.Infraestructure.",
-      "libraryId": "TaskFlow.Infraestructure",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

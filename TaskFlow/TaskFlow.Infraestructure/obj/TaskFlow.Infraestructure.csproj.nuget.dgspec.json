@@ -32,11 +32,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj": {
-                "projectPath": "C:\\Study\\TaskFlow\\TaskFlow\\TaskFlow.Infraestructure\\TaskFlow.Infraestructure.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

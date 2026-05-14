@@ -1,19 +1,22 @@
 ﻿using TaskFlow.Application.DTO;
 using TaskFlow.Application.DTO.Services;
 using TaskFlow.Domain.Services;
+using TaskFlow.Domain.Services.Interfaces;
 
 namespace TaskFlow.Application.Services
 {
     public class UserServices
     {
-        private readonly UserPersistenceServices _userPersistence;
+        private readonly IUserPersistence _userPersistence;
         private readonly DTOConverterService _dtoConverterService;
-        public UserDTO GetUser(string email, HashCode password) 
+        public UserDTO GetUser(string email, string password) 
         {
             if (email == null)
                 return null;
 
-            var user = _dtoConverterService.ConvertUserToUserDTO(_userPersistence.GetUser(email, password));
+            var hashedPassword = AuthService.HashPassword(password);
+
+            var user = _dtoConverterService.ConvertUserToUserDTO(_userPersistence.GetUser(email, hashedPassword));
 
             return user;
         }
@@ -28,7 +31,7 @@ namespace TaskFlow.Application.Services
             return _dtoConverterService.ConvertUserToUserDTO(user);
         }
 
-        public UserDTO UpdateUserPassword(HashCode newPassword, UserDTO userDto)
+        public UserDTO UpdateUserPassword(string newPassword, UserDTO userDto)
         {
             if (userDto == null)
                 return null;

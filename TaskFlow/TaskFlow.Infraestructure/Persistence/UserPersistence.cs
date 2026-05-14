@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TaskFlow.Domain.Model;
+﻿using TaskFlow.Domain.Model;
 using TaskFlow.Domain.Services.Interfaces;
 using TaskFlow.Infraestructure.Context;
 
@@ -12,12 +7,14 @@ namespace TaskFlow.Infraestructure.Persistence
     public class UserPersistence : IUserPersistence
     {
         private readonly MySqlContext taskContext;
-        public User GetUser(string email, HashCode password)
+        public User GetUser(string email, string hashedPassword)
         {
-            if (email == null || password ==)
-            var authUser = taskContext.Users.FirstOrDefault(x => x.Email == email && x.Password == password);
+            if (String.IsNullOrEmpty(email)|| String.IsNullOrEmpty(hashedPassword)) {
+                return null;
+            }
+            var user = taskContext.Users.FirstOrDefault(x => x.Email == email && x.HashedPassword == hashedPassword);
 
-            return authUser;
+            return user;
         }
 
         public User UpdateUserEmail(string newEmail, User authUser)
@@ -35,7 +32,7 @@ namespace TaskFlow.Infraestructure.Persistence
             return updatedUser;
         }
 
-        public User UpdateUserPassword(HashCode newPassword, User authUser)
+        public User UpdateUserPassword(string hashedPassword, User authUser)
         {
             return null;
         }
